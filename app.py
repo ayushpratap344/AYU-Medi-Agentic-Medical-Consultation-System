@@ -9,15 +9,16 @@ os.environ["AUTOGEN_USE_DOCKER"] = "False"
 
 LLM_CONFIG = {
     "config_list": [{
-        "model": "#your_model",
-        "base_url": "#your_base_url",
+        "model": st.secrets["AZURE_MODEL"],
+        "base_url": st.secrets["AZURE_BASE_URL"],
         "api_type": "azure",
-        "api_version": "#your_api_version",
-        "api_key": "#your_api_key"
+        "api_version": "2024-02-01",
+        "api_key": st.secrets["AZURE_API_KEY"]  # API key from Streamlit Secrets
     }],
     "temperature": 0.2,
     "max_tokens": 800
 }
+
 
 @st.cache_resource
 def create_agents():
