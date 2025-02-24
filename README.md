@@ -8,6 +8,12 @@
 All these are provided in a single, integrated report.
 
 ---
+## Working Images
+- **Diagnosis Summary**
+![AYU-Medi Workflow](https://github.com/ayushpratap344/AYU-Medi-Agentic-Medical-Consultation-System/raw/main/Working_Images/Diagnosis.jpg)
+
+- **Treatment Plan**
+![AYU-Medi Workflow](https://github.com/ayushpratap344/AYU-Medi-Agentic-Medical-Consultation-System/blob/main/Working_Images/Treatment_Plan.jpg)
 
 ## 🔹 Key Features
 
