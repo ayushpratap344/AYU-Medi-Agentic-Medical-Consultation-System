@@ -9,11 +9,11 @@ os.environ["AUTOGEN_USE_DOCKER"] = "False"
 
 LLM_CONFIG = {
     "config_list": [{
-        "model": "sss-poc-edt-eu-gpt4omini",
-        "base_url": "https://sss-poc-edt-eu.openai.azure.com/",
+        "model": "#your_model",
+        "base_url": "#your_base_url",
         "api_type": "azure",
-        "api_version": "2024-02-01",
-        "api_key": "9c63f9a6c5d2495b8dbf83c6fd7c7009"
+        "api_version": "#your_api_version",
+        "api_key": "#your_api_key"
     }],
     "temperature": 0.2,
     "max_tokens": 800
